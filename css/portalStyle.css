@@ -1,0 +1,88 @@
+/* Portal CSS */
+.active{
+  background-color: #252525;
+  color:#fff !important;
+}
+
+body{
+  overflow-x: hidden;
+}
+.nav-link:hover{
+  color:#c59d5f;
+}
+.nav-item a{
+   color: #000 ;
+}
+.sidenav{
+  height: 38vw; 
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+a{
+  text-decoration:none;
+}
+a .active{
+color: #fff !important;
+}
+
+.navbar-dark{
+  background-color:#252525;
+  height: 4rem;
+}
+.btn{
+  background-color:#252525;
+  color:#fff;
+}
+.btn:hover{
+  color:#fff;
+}
+.logo1{
+  height: 11rem;
+}
+.btn1{
+  background-color:#c48528;
+  color:#fff;
+}
+.btn1:hover{
+  color:#fff;
+}
+.blkColor{
+  background-color:#252525;
+}
+/* cart count */
+#cart_count{
+  text-align: center;
+  padding: .2rem .9rem;
+  border-radius: 3rem;
+ }
+
+ .back-image{
+  background:url("../images/back.jpg") center no-repeat;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.formcontainer{
+  border: 2px solid #fff;
+  box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.72);
+  -webkit-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.72);
+  -moz-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.72);
+}
